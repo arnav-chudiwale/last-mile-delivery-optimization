@@ -11,8 +11,8 @@ The project optimizes trade-offs between -
 Dataset - 
 - 500 urban delivery locations clustered around 8 neighborhoods 
 (Used Lat Long co-ordinates of New York, NY as the depot location and the rest of the location co-ordinates randomly generate from the depot co-ordinates)
-- Baseline demand: ___ packages/day
-- Peak Demand: __ packages/day
+- Baseline demand: 1490 packages/day
+- Peak Demand: 3906 packages/day
 - Fleet: 
 8 small vans: Capacity - 50 packages/vehicle
 4 large vans: Capacity - 100 packages/vehicle
