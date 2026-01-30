@@ -1,0 +1,8 @@
+{
+  "n_locations": 500,
+  "depot_index": 0,
+  "speed_kmph": 40,
+  "service_time_minutes": 5,
+  "max_distance_km": 10981.958548506895,
+  "avg_distance_km": 10964.514379498016
+}

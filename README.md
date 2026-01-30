@@ -1,0 +1,44 @@
+Project - Last Mile Delivery Optimization for Peak Season Demand Variability
+
+Problem Statement - 
+E-commerce fulfillment centers face capacity constraints during peak shopping seasons when demand surges roughly by 167% (Avg variability across industry standards) above baseline for 5-10 days. 
+
+The project optimizes trade-offs between - 
+- Extended driver shifts (overtime delivery premiums) utilizing owned fleet
+- Outsourcing to 3PL partners (per package premiums)
+- Delayed deliveries (compromising on service levels which incur penalty)
+
+Dataset - 
+- 500 urban delivery locations clustered around 8 neighborhoods 
+(Used Lat Long co-ordinates of New York, NY as the depot location and the rest of the location co-ordinates randomly generate from the depot co-ordinates)
+- Baseline demand: ___ packages/day
+- Peak Demand: __ packages/day
+- Fleet: 
+8 small vans: Capacity - 50 packages/vehicle
+4 large vans: Capacity - 100 packages/vehicle
+
+Methodology - 
+1. Baseline VRP (during normal operations)
+2. Peak scenario modelling 
+3. Capacity Gap Analysis 
+4. Multi-Strategy Optimization
+5. Sensitivity Analysis 
+
+Technologies - 
+1. Python 3.9+
+2. Google OR Tools - for solving VRP
+3. Folium - for geospatial visualization
+4. Numpy/Pandas - for data processing
+
+Project Structure - 
+last_mile_delivery/
+|-__data/  #Generated Datasets 
+|-__code/  #Python Scripts
+|-__results/ #Outputs (maps,charts, reports)
+|-__docs/ #Documentation
+|__README.md
+
+Status - 
+Day 1/10: Data Generation Complete
+
+

@@ -1,0 +1,3 @@
+vehicle_type,capacity_packages,fixed_cost_per_day,cost_per_km,speed_kmph,available_count
+small_van,50,120,0.5,40,8
+large_van,100,180,0.75,35,4
