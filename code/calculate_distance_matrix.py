@@ -36,7 +36,7 @@ def haversine_distance(lat1, long1, lat2, long2):
     Haversine Formula returns the distance between 2 co-ordinates in kms
 
     '''
-    R = 6371 # Radius of Earth
+    R = 6371.0 # Radius of Earth
 
     #coverting the co-ordinates into radians 
 
@@ -46,8 +46,10 @@ def haversine_distance(lat1, long1, lat2, long2):
     d_lat = lat2 - lat1 
     d_long = long2 - long1
 
-    a = np.sin(d_lat/2)**2 + np.cos(lat1)*np.cos(lat2) + np.sin(d_long/2)**2
-    c = 2 * np.arcsin(np.sqrt(a))
+    a = np.sin(d_lat/2.0)**2 + np.cos(lat1)*np.cos(lat2) * np.sin(d_long/2.0)**2
+    # Prevent tiny numerical errors pushing 'a' outside [0,1]
+    a = np.clip(a, 0.0, 1.0)
+    c = 2 * np.arctan2(np.sqrt(a), np.sqrt(1-a))
 
     return R*c
 
