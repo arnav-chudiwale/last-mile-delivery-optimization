@@ -40,5 +40,6 @@ last_mile_delivery/
 
 Status - 
 Day 1/10: Data Generation Complete
+Day 2.1/10 - Building VRP Solver and Testing Base Case
 
 
