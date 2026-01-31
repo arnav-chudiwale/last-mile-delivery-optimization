@@ -14,8 +14,8 @@ Dataset -
 - Baseline demand: 1490 packages/day
 - Peak Demand: 3906 packages/day
 - Fleet: 
-8 small vans: Capacity - 50 packages/vehicle
-4 large vans: Capacity - 100 packages/vehicle
+a) 32 small vans: Capacity - 50 packages/vehicle
+b) X large vans: Capacity - 100 packages/vehicle
 
 Methodology - 
 1. Baseline VRP (during normal operations)
@@ -30,16 +30,10 @@ Technologies -
 3. Folium - for geospatial visualization
 4. Numpy/Pandas - for data processing
 
-Project Structure - 
-last_mile_delivery/
-|-__data/  #Generated Datasets 
-|-__code/  #Python Scripts
-|-__results/ #Outputs (maps,charts, reports)
-|-__docs/ #Documentation
-|__README.md
-
 Status - 
-Day 1/10: Data Generation Complete
-Day 2.1/10 - Building VRP Solver and Testing Base Case
+1) Day 1: Data Generation Complete
+2) Day 2.1 - Building VRP Solver and Testing Base Case
+3) Day 2.2 - Created Route Visualization and Analysis Charts + Documented Base Base Results
+
 
 
