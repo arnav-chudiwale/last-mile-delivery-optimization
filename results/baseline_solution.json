@@ -239,27 +239,26 @@
       "vehicle_id": 9,
       "route": [
         0,
-        279,
+        216,
         130,
         292,
         162,
         15,
-        154,
-        287,
-        291,
         69,
+        291,
         159,
         228,
         271,
+        36,
         232,
         182,
         184,
         284,
         0
       ],
-      "distance_km": 17.453,
-      "load": 50,
-      "num_stops": 16
+      "distance_km": 16.802,
+      "load": 49,
+      "num_stops": 15
     },
     {
       "vehicle_id": 10,
@@ -294,8 +293,7 @@
       "vehicle_id": 11,
       "route": [
         0,
-        94,
-        11,
+        389,
         229,
         308,
         486,
@@ -304,15 +302,16 @@
         71,
         366,
         104,
-        323,
         311,
-        241,
-        368,
         202,
+        368,
+        241,
+        11,
+        94,
         267,
         0
       ],
-      "distance_km": 16.929,
+      "distance_km": 16.716,
       "load": 50,
       "num_stops": 16
     },
@@ -422,8 +421,7 @@
       "route": [
         0,
         365,
-        216,
-        36,
+        279,
         225,
         493,
         495,
@@ -434,12 +432,14 @@
         303,
         211,
         351,
-        389,
+        323,
+        287,
+        154,
         0
       ],
-      "distance_km": 21.043,
-      "load": 49,
-      "num_stops": 14
+      "distance_km": 21.314,
+      "load": 50,
+      "num_stops": 15
     },
     {
       "vehicle_id": 17,
@@ -812,16 +812,16 @@
       "num_stops": 14
     }
   ],
-  "total_distance_km": 612.204,
+  "total_distance_km": 611.611,
   "total_load": 1490,
   "total_vehicles_used": 31,
   "vehicles_used": 31,
   "vehicles_available": 32,
   "costs": {
     "fixed_cost": "3720",
-    "variable_cost": 306.1,
+    "variable_cost": 305.81,
     "driver_cost": 6200.0,
-    "total_costs": 10226.1,
+    "total_costs": 10225.81,
     "cost_per_package": 6.86
   }
 }

@@ -344,4 +344,3 @@ if solution:
 
 else: 
     print("\n Failed to find a solution for the baseline scenario.")
-

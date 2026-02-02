@@ -1,0 +1,20 @@
+{
+  "capacity_gap": {
+    "peak_demand": 3906,
+    "fleet_capacity": 1600,
+    "max_servable": 1600,
+    "unserved_packages": 2306,
+    "service_level": 40.96,
+    "service_failure": 59.04
+  },
+  "do_nothing_scneario": {
+    "strategy": "Do Nothing (Base Fleet + Normal Hours)",
+    "packages_served": 1600,
+    "packages_unserved": 2306,
+    "service_level": 40.96,
+    "baseline_operations_costs": 10225.81,
+    "late_penalty_costs": 41508,
+    "total_cost": 51733.81,
+    "cost_per_package_attempted": 13.24
+  }
+}

@@ -1,6 +1,6 @@
 {
   "outsource_cost_per_package": 12.5,
-  "late_penalty_per_package": 5,
+  "late_penalty_per_package": 18,
   "driver_hourly_rate_regular": 25.0,
   "driver_hourly_rate_overtime": 37.5,
   "regular_shift_hours": 8,
