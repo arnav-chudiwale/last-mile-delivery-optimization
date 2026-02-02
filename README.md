@@ -34,6 +34,6 @@ Status -
 1) Day 1: Data Generation Complete
 2) Day 2.1 - Building VRP Solver and Testing Base Case
 3) Day 2.2 - Created Route Visualization and Analysis Charts + Documented Base Base Results
-
+4) Day 3.1 - Performed Peak Season Cost Analysis
 
 
