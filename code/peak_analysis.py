@@ -98,9 +98,9 @@ class PeakAnalyzer:
         print(f"Service Failure rate: {gap['service_failure']:.1f}")
         print(f"CRISIS: Can only serve {gap['service_level']:.1f}% of the peak demand")
 
-        print(f"=*70")
+        print(f"="*70)
         print("DO NOTHING SCENARIO - COST ANALYSIS")
-        print(f"=*70")
+        print(f"="*70)
         print(f"If we operate with existing fleet (with normal working hours) during peak:")
         print(f"Packages Delivered: {do_nothing['packages_served']:,}")
         print(f"Packages FAILED to be Delivered: {do_nothing['packages_unserved']:,}")
@@ -121,7 +121,7 @@ class PeakAnalyzer:
         #Saving data 
         crisis_data = {
             'capacity_gap' : gap,
-            'do_nothing_scneario': do_nothing
+            'do_nothing_scenario': do_nothing
         }
 
         with open('results/capacity_crisis.json', 'w') as f:

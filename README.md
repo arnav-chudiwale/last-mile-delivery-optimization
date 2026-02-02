@@ -35,5 +35,6 @@ Status -
 2) Day 2.1 - Building VRP Solver and Testing Base Case
 3) Day 2.2 - Created Route Visualization and Analysis Charts + Documented Base Base Results
 4) Day 3.1 - Performed Peak Season Cost Analysis
+5) Day 3.2 - Performed Strategy Comparison for Peak Season 
 
 

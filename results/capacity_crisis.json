@@ -7,7 +7,7 @@
     "service_level": 40.96,
     "service_failure": 59.04
   },
-  "do_nothing_scneario": {
+  "do_nothing_scenario": {
     "strategy": "Do Nothing (Base Fleet + Normal Hours)",
     "packages_served": 1600,
     "packages_unserved": 2306,
