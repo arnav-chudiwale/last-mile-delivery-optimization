@@ -1,0 +1,9 @@
+{
+  "optimal_overtime_hours": 2.0,
+  "capacity_from_overtime": 383,
+  "packages_outsourced": 1922,
+  "outsource_percentage": 49.206,
+  "overtime_cost": 2400.0,
+  "outsource_cost": 24025.01,
+  "total_additional_cost": 26425.0
+}
