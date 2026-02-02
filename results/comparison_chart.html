@@ -1,0 +1,184 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <title>Peak Season Strategy Comparison</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; background: #f5f5f5; }
+            h1 { color: #333; text-align: center; }
+            .container { max-width: 1200px; margin: 0 auto; background: white; padding: 20px; border-radius: 8px; }
+            table { width: 100%; border-collapse: collapse; margin: 20px 0; }
+            th, td { padding: 12px; text-align: left; border-bottom: 1px solid #ddd; }
+            th { background-color: #4CAF50; color: white; }
+            tr:hover { background-color: #f5f5f5; }
+            .feasible { color: green; font-weight: bold; }
+            .infeasible { color: red; font-weight: bold; }
+            .best { background-color: #e8f5e9; }
+            .chart { margin: 30px 0; }
+            .bar { height: 30px; background: #4CAF50; margin: 5px 0; display: flex; align-items: center; padding-left: 10px; color: white; }
+            .bar-red { background: #f44336; }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <h1>Peak Season Strategy Comparison</h1>
+    
+            <h2>Strategy Summary</h2>
+            <table>
+                <tr>
+                    <th>Strategy</th>
+                    <th>Total Cost</th>
+                    <th>Service Level</th>
+                    <th>Outsource %</th>
+                    <th>Feasible</th>
+                </tr>
+    
+                <tr class="best">
+                    <td><strong>Hybrid (Overtime:2.0 hours + Outsource)</strong></td>
+                    <td>$36,651</td>
+                    <td>100.0%</td>
+                    <td>49.2%</td>
+                    <td class="feasible">Yes</td>
+                </tr>
+        
+                <tr >
+                    <td><strong>Hybrid (Overtime:1.6 hours + Outsource)</strong></td>
+                    <td>$37,133</td>
+                    <td>100.0%</td>
+                    <td>51.2%</td>
+                    <td class="feasible">Yes</td>
+                </tr>
+        
+                <tr >
+                    <td><strong>Hybrid (Overtime:1.2 hours + Outsource)</strong></td>
+                    <td>$37,616</td>
+                    <td>100.0%</td>
+                    <td>53.1%</td>
+                    <td class="feasible">Yes</td>
+                </tr>
+        
+                <tr >
+                    <td><strong>Hybrid (Overtime:0.8 hours + Outsource)</strong></td>
+                    <td>$38,098</td>
+                    <td>100.0%</td>
+                    <td>55.1%</td>
+                    <td class="feasible">Yes</td>
+                </tr>
+        
+                <tr >
+                    <td><strong>Outsource All overflow</strong></td>
+                    <td>$39,051</td>
+                    <td>100.0%</td>
+                    <td>59.0%</td>
+                    <td class="feasible">Yes</td>
+                </tr>
+        
+                <tr >
+                    <td><strong>Overtime Only (extended 10 hour shifts)</strong></td>
+                    <td>$47,222</td>
+                    <td>50.8%</td>
+                    <td>0.0%</td>
+                    <td class="infeasible">No</td>
+                </tr>
+        
+            </table>
+    
+            <h2>Cost Breakdown</h2>
+            <table>
+                <tr>
+                    <th>Strategy</th>
+                    <th>Baseline</th>
+                    <th>Overtime</th>
+                    <th>Outsource</th>
+                    <th>Penalty</th>
+                    <th>Total</th>
+                </tr>
+    
+                <tr>
+                    <td><strong>Hybrid (Overtime:2.0 hours + Outsource)</strong></td>
+                    <td>$10,226</td>
+                    <td>$0</td>
+                    <td>$24,025</td>
+                    <td>$0</td>
+                    <td><strong>$36,651</strong></td>
+                </tr>
+        
+                <tr>
+                    <td><strong>Hybrid (Overtime:1.6 hours + Outsource)</strong></td>
+                    <td>$10,226</td>
+                    <td>$0</td>
+                    <td>$24,988</td>
+                    <td>$0</td>
+                    <td><strong>$37,133</strong></td>
+                </tr>
+        
+                <tr>
+                    <td><strong>Hybrid (Overtime:1.2 hours + Outsource)</strong></td>
+                    <td>$10,226</td>
+                    <td>$0</td>
+                    <td>$25,950</td>
+                    <td>$0</td>
+                    <td><strong>$37,616</strong></td>
+                </tr>
+        
+                <tr>
+                    <td><strong>Hybrid (Overtime:0.8 hours + Outsource)</strong></td>
+                    <td>$10,226</td>
+                    <td>$0</td>
+                    <td>$26,912</td>
+                    <td>$0</td>
+                    <td><strong>$38,098</strong></td>
+                </tr>
+        
+                <tr>
+                    <td><strong>Outsource All overflow</strong></td>
+                    <td>$10,226</td>
+                    <td>$0</td>
+                    <td>$28,825</td>
+                    <td>$0</td>
+                    <td><strong>$39,051</strong></td>
+                </tr>
+        
+                <tr>
+                    <td><strong>Overtime Only (extended 10 hour shifts)</strong></td>
+                    <td>$10,226</td>
+                    <td>$2,400</td>
+                    <td>$0</td>
+                    <td>$34,596</td>
+                    <td><strong>$47,222</strong></td>
+                </tr>
+        
+            </table>
+    
+            <h2>Total Cost Comparison</h2>
+            <div class="chart">
+    
+                <div class="bar " style="width: 77.6141575259398%;">
+                    Hybrid (Overtime:2.0 hours + Outsource): $36,651
+                </div>
+        
+                <div class="bar " style="width: 78.63593115130487%;">
+                    Hybrid (Overtime:1.6 hours + Outsource): $37,133
+                </div>
+        
+                <div class="bar " style="width: 79.65770477666993%;">
+                    Hybrid (Overtime:1.2 hours + Outsource): $37,616
+                </div>
+        
+                <div class="bar " style="width: 80.67947840203499%;">
+                    Hybrid (Overtime:0.8 hours + Outsource): $38,098
+                </div>
+        
+                <div class="bar " style="width: 82.69655483345514%;">
+                    Outsource All overflow: $39,051
+                </div>
+        
+                <div class="bar bar-red" style="width: 100.0%;">
+                    Overtime Only (extended 10 hour shifts): $47,222
+                </div>
+        
+            </div>
+        </div>
+    </body>
+    </html>
+    

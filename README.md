@@ -12,10 +12,9 @@ Dataset -
 - 500 urban delivery locations clustered around 8 neighborhoods 
 (Used Lat Long co-ordinates of New York, NY as the depot location and the rest of the location co-ordinates randomly generate from the depot co-ordinates)
 - Baseline demand: 1490 packages/day
-- Peak Demand: 3906 packages/day
-- Fleet: 
-a) 32 small vans: Capacity - 50 packages/vehicle
-b) X large vans: Capacity - 100 packages/vehicle
+- Peak Demand: 3906 packages/day (162% increase in demand)
+- In-House Fleet: 
+32 small vans: Capacity - 50 packages/vehicle
 
 Methodology - 
 1. Baseline VRP (during normal operations)
@@ -36,5 +35,6 @@ Status -
 3) Day 2.2 - Created Route Visualization and Analysis Charts + Documented Base Base Results
 4) Day 3.1 - Performed Peak Season Cost Analysis
 5) Day 3.2 - Performed Strategy Comparison for Peak Season 
+6) Day 3.3 - Generated Interactive Web Charts for Strategy Comparison
 
 
