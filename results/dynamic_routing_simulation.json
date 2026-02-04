@@ -1,0 +1,64 @@
+{
+  "decisions": [
+    {
+      "time": "8:00",
+      "new_orders": 668,
+      "decision": {
+        "time": 8,
+        "known_demand": 668,
+        "available_capacity": 1600,
+        "dispatched_in_house": 668,
+        "outsourced": 0
+      },
+      "cumulative_in_house": 668,
+      "cumulative_outsource": 0
+    },
+    {
+      "time": "10:00",
+      "new_orders": 793,
+      "decision": {
+        "time": 10,
+        "known_demand": 793,
+        "available_capacity": 0,
+        "dispatched_in_house": 0,
+        "outsourced": 793
+      },
+      "cumulative_in_house": 668,
+      "cumulative_outsource": 793
+    },
+    {
+      "time": "12:00",
+      "new_orders": 899,
+      "decision": {
+        "time": 12,
+        "known_demand": 899,
+        "available_capacity": 800,
+        "dispatched_in_house": 800,
+        "outsourced": 99
+      },
+      "cumulative_in_house": 1468,
+      "cumulative_outsource": 892
+    },
+    {
+      "time": "14:00",
+      "new_orders": 677,
+      "decision": {
+        "time": 14,
+        "known_demand": 677,
+        "available_capacity": 1600,
+        "dispatched_in_house": 677,
+        "outsourced": 0
+      },
+      "cumulative_in_house": 2145,
+      "cumulative_outsource": 892
+    }
+  ],
+  "final_summary": {
+    "in_house_packages": 2145,
+    "outsourced_packages": 892,
+    "in_house_cost": 14721.05,
+    "outsource_cost": 11150.0,
+    "total_cost": 25871.05,
+    "cost_per_package": 8.52
+  }
+}

@@ -1,0 +1,124 @@
+{
+  "demand_variance": [
+    {
+      "variance": -0.2,
+      "demand": 3124,
+      "outsource_packages": 1140.0,
+      "total_cost": 26875.809999999998,
+      "cost_per_package": 8.603012163892444
+    },
+    {
+      "variance": -0.15000000000000002,
+      "demand": 3320,
+      "outsource_packages": 1336.0,
+      "total_cost": 29325.809999999998,
+      "cost_per_package": 8.833075301204818
+    },
+    {
+      "variance": -0.10000000000000003,
+      "demand": 3515,
+      "outsource_packages": 1531.0,
+      "total_cost": 31763.309999999998,
+      "cost_per_package": 9.036503556187766
+    },
+    {
+      "variance": -0.050000000000000044,
+      "demand": 3710,
+      "outsource_packages": 1726.0,
+      "total_cost": 34200.81,
+      "cost_per_package": 9.21854716981132
+    },
+    {
+      "variance": -5.551115123125783e-17,
+      "demand": 3906,
+      "outsource_packages": 1922.0,
+      "total_cost": 36650.81,
+      "cost_per_package": 9.383207885304659
+    },
+    {
+      "variance": 0.04999999999999993,
+      "demand": 4101,
+      "outsource_packages": 2117.0,
+      "total_cost": 39088.31,
+      "cost_per_package": 9.531409412338453
+    },
+    {
+      "variance": 0.09999999999999992,
+      "demand": 4296,
+      "outsource_packages": 2312.0,
+      "total_cost": 41525.81,
+      "cost_per_package": 9.666156890130353
+    },
+    {
+      "variance": 0.1499999999999999,
+      "demand": 4491,
+      "outsource_packages": 2507.0,
+      "total_cost": 43963.31,
+      "cost_per_package": 9.789202850144733
+    },
+    {
+      "variance": 0.1999999999999999,
+      "demand": 4687,
+      "outsource_packages": 2703.0,
+      "total_cost": 46413.31,
+      "cost_per_package": 9.90256240665671
+    }
+  ],
+  "3pl_capacity_constraint": [
+    {
+      "3pl_capacity_limit": 1500,
+      "outsourced": 1500,
+      "unserved": 422,
+      "late_penalty": 7596,
+      "total_cost": 38971.81
+    },
+    {
+      "3pl_capacity_limit": 1800,
+      "outsourced": 1800,
+      "unserved": 122,
+      "late_penalty": 2196,
+      "total_cost": 37321.81
+    },
+    {
+      "3pl_capacity_limit": 2000,
+      "outsourced": 1922,
+      "unserved": 0,
+      "late_penalty": 0,
+      "total_cost": 36650.81
+    }
+  ],
+  "overtime_feasibility": [
+    {
+      "overtime_limit": 0.5,
+      "overtime_capacity": 96,
+      "outsource_packages": 2210,
+      "overtime_cost": 600.0,
+      "outsource_cost": 27625.0,
+      "total_cost": 38450.81
+    },
+    {
+      "overtime_limit": 1.0,
+      "overtime_capacity": 192,
+      "outsource_packages": 2114,
+      "overtime_cost": 1200.0,
+      "outsource_cost": 26425.0,
+      "total_cost": 37850.81
+    },
+    {
+      "overtime_limit": 1.5,
+      "overtime_capacity": 288,
+      "outsource_packages": 2018,
+      "overtime_cost": 1800.0,
+      "outsource_cost": 25225.0,
+      "total_cost": 37250.81
+    },
+    {
+      "overtime_limit": 2.0,
+      "overtime_capacity": 384,
+      "outsource_packages": 1922,
+      "overtime_cost": 2400.0,
+      "outsource_cost": 24025.0,
+      "total_cost": 36650.81
+    }
+  ]
+}

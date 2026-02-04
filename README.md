@@ -37,5 +37,6 @@ Status -
 5) Day 3.2 - Performed Strategy Comparison for Peak Season 
 6) Day 3.3 - Generated Interactive Web Charts for Strategy Comparison
 7) Day 3.4 - Performed Overtime_Outsourcing Optimization + Documented Results
+8) Day 4 - Dynamic Routing simulation and Sensitivity Analysis
 
 
